@@ -1,23 +1,10 @@
 //matrixDisplayProcessing
-//Oguz Yetkin 10/14/2019 oyetkin@gmail.com
-//written for calibration of the shape sensor for Biomed 2019 Cesme, Turkey
-//displays values from a 3x3 matrix obtained from the Arduino,
-//MATLAB style
-//TODO: accept MATLAB style input
-
-//gridPickProcessing
-//Oguz Yetkin 9/25/2018 1:14am
-//oyetkin@gmail.com
-//use permitted with proper attribution:
-//Yetkin, Oguz. Computer Code: gridPickProcessing. September 2018.
-//demo code to pick rows and columns graphically
-
+//written for calibration of the shape sensor for Biomed 
 
 int rows=15;
 int cols=15;
 
 
-//OY 8/6/2018 globals
 import processing.serial.*;
 int value1; 
 int value2;
@@ -28,7 +15,6 @@ int arena[][];  //this will consist of values between 0-1023 which we will divid
 int arenaValueArray[];
 
 
-//TODO: implement color map
 void setup() {
   size(400, 400);
   arena =new int[rows][cols];
@@ -103,7 +89,6 @@ void mouseClicked() {
   println("row: "+row+" col: "+col+" val: "+arena[row][col]); //TODO: draw red rect
 }
 
-//OY 8/6/2018
 void serialEvent(Serial myPort) {
   String valString = myPort.readString(); //needs myPort.bufferUntil(10) in setup()
 
