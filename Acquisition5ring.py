@@ -1,3 +1,5 @@
+# Anthony Vigil and Oguz Yetkin
+
 from math import exp
 from random import random
 import serial
