@@ -1,9 +1,5 @@
 //All_Ring_Newboard
-//Oguz Yetkin oyetkin@gmail.com modified for 6th generation ASL Device with Anthony Vigil 11/4/2020
-//based on
-//ringtest3
-//Oguz Yetkin oyetkin@gmail.com written for 5th generation ASL Device with Prissha Krishna Moorthy
-//oyetkin@gmail.com 3/6/2020
+//Anthony Vigil & Oguz Yetkin
 
 const int NSENSORS = 15;
 int sensorValues[NSENSORS] = {0};             //number of sensors, assumed equal to number of leds
