@@ -1,4 +1,5 @@
-#Prissha Krishna Moorthy, 1001354261
+#Anthony Vigil & Prissha Krishna Moorthy
+
 from math import exp
 from random import seed
 from random import random
