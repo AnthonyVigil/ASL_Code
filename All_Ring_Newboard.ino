@@ -41,7 +41,7 @@ void loop() {
 
     for (int sensor = 0; sensor < NSENSORS; sensor++) {
       digitalWrite(LEDs[LED], HIGH);
-      //Anthony: if the device doesn't work, comment the next line back in
+      // if the device doesn't work, comment the next line back in
       //delay(flash_duration);
 
       digitalWrite(Transistors[sensor], HIGH);
