@@ -61,7 +61,6 @@ void populateGrid(int[][] arena) {
   for (i=0; i<rows; i++) {
     for (j=0; j<cols; j++) {
       //fill(20,20,20); 
-      //OY 10/14/2019
       fill(mapColor(arena[i][j]));
       rect(j*boxw, i*boxh, 
         boxw, boxh);
