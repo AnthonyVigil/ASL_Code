@@ -43,7 +43,7 @@ void loop() {
       digitalWrite(Transistors[sensor], HIGH);
       //delay(1);  // use this if needed
       int val = analogRead(pins[sensor]);
-      delay(1);  //Anthony use this if needed
+      delay(1);  // use this if needed
       digitalWrite(Transistors[sensor], LOW);
       
       Serial.print(val);
