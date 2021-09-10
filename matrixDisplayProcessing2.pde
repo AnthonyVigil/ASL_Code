@@ -1,5 +1,4 @@
 //matrixDisplayProcessing
-//written for calibration of the shape sensor for Biomed 
 // Anthony Vigil & Oguz Yetkin
 
 int rows=15;
